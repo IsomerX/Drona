@@ -13,7 +13,7 @@
   src: url(../Fonts/Cinzel/Cinzel-Regular.ttf);
 }
 @font-face{
-  font-family: Lato;
+  font-family: Press Start 2P;
   src: url(../Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 @font-face{
@@ -109,7 +109,7 @@ section#graphs .heading_graphs0 {
   color: gray;
   text-align: center;
   padding: 50px 0 50px 0;
-  font-family: Lato;
+  font-family: Gugi;
 }
 
 section#graphs .text {
