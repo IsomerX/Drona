@@ -17,7 +17,7 @@
   src: url(../Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 @font-face{
-  font-family: Lato;
+  font-family: Righteous;
   src: url(../Fonts/Righteous/Righteous-Regular.ttf);
 }
 
@@ -109,7 +109,7 @@ section#graphs .heading_graphs0 {
   color: gray;
   text-align: center;
   padding: 50px 0 50px 0;
-  font-family: Gugi;
+  font-family: Righteous;
 }
 
 section#graphs .text {
