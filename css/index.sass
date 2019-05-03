@@ -55,3 +55,61 @@ section#hero
 			font-size: 1.5em
 			font-family: arial
 			color: white
+
+section#graphs
+	width: 100%
+	padding: 40px 0
+	.heading_graphs0
+		font-size: 5em
+		color: gray
+		text-align: center
+		padding: 10px 0 30px 0
+	.text
+		width: 960px
+	#gala
+		width: 960px
+		margin: 0 auto
+		margin-bottom: 100px
+	.graph
+		position: relative
+		height: 300px
+		width: 500px
+		filter: blur(5px)
+		-webkit-box-shadow: 10px 10px 41px -13px rgba(0,0,0,0.75)
+		-moz-box-shadow: 10px 10px 41px -13px rgba(0,0,0,0.75)
+		box-shadow: 10px 10px 41px -13px rgba(0,0,0,0.75)
+	.graph:nth-of-type(1)
+		left: 80%
+		transform: translateX(-50%)
+		z-index: 1
+	.graph:nth-of-type(2)
+		left: -10%
+		margin-top: -100% 
+		z-index: 2
+	.graph:nth-of-type(3)
+		left: 50%
+		margin-top: -15%
+		transform: translateX(-50%)
+		z-index: 3
+	.graph:nth-of-type(4)
+		left: 60%
+		margin-top: -15% 
+		z-index: 4	
+	.graph:nth-of-type(5)
+		left: 0%
+		margin-top: -45% 
+		z-index: 5
+	.focus
+			filter: blur(0) !important
+			z-index: 6 !important
+	.boxa
+		width: 80%
+		background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)
+		padding: 1em
+		margin: 0 auto
+		border-radius: 10px
+		color: white
+		font-family: arial
+
+		.heading_graphs
+			font-size: 3em
