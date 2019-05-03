@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Gugi|Press+Start+2P");
+section#hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #282a2c; }
+  section#hero nav {
+    height: 80px;
+    width: 100%; }
+    section#hero nav ul.lister {
+      width: 960px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center; }
+      section#hero nav ul.lister .logo {
+        width: 40%;
+        line-height: 80px;
+        color: white;
+        font-family: 'Press Start 2P', cursive; }
+      section#hero nav ul.lister .links {
+        width: 70%; }
+      section#hero nav ul.lister li.links ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        section#hero nav ul.lister li.links ul li.linke {
+          line-height: 80px;
+          width: 25%; }
+          section#hero nav ul.lister li.links ul li.linke a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Gugi', cursive; }
+  section#hero header #drone {
+    height: 800px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    opacity: 0.5; }
+    section#hero header #drone img {
+      height: 600px;
+      width: 600px;
+      background-size: cover;
+      margin: 0 auto; }
