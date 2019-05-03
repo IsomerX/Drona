@@ -129,7 +129,7 @@ section#graphs
 
 section#product
 	width: 960px
-	height: 100vh
+	height: 500px
 	margin: 0 auto
 	display: flex
 
@@ -151,15 +151,31 @@ section#product
 			color: transparent
 			-webkit-background-clip: text
 			background-clip: text
-p.card
+.card
 	width: 100%
-	background-color: blue
+	height: 500px
+	text-align: center
 
-#firstImg
-	height: 300px
-	position: relative
-#prev
-	width: 443px
-	position: relative
+	p
+		position: relative
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		font-size: 2em
+		width: 960px
+		font-weight: bold
+
+
+.carda
+	display: flex
+	width: 960px
+	margin: 0 auto
+	#firstImg
+		height: 300px
+		
+	#prev
+		height: 300px
+		filter: blur(5px)
+		
 
 

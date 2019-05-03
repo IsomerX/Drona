@@ -134,7 +134,7 @@ section#graphs {
 
 section#product {
   width: 960px;
-  height: 100vh;
+  height: 500px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,14 +162,30 @@ section#product {
       -webkit-background-clip: text;
       background-clip: text; }
 
-p.card {
+.card {
   width: 100%;
-  background-color: blue; }
+  height: 500px;
+  text-align: center; }
+  .card p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    width: 960px;
+    font-weight: bold; }
 
-#firstImg {
-  height: 300px;
-  position: relative; }
-
-#prev {
-  width: 443px;
-  position: relative; }
+.carda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 960px;
+  margin: 0 auto; }
+  .carda #firstImg {
+    height: 300px; }
+  .carda #prev {
+    height: 300px;
+    -webkit-filter: blur(5px);
+    filter: blur(5px); }
