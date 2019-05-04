@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Gugi|Press+Start+2P|Righteous");
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 body {
-  height: 2000px;
+  scroll-behavior: smooth;
 }
 
 section#hero {
@@ -242,8 +242,6 @@ section#product #heading_product span {
 
 .carda #prev {
   height: 300px;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
 }
 
 section#info {

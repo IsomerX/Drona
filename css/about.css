@@ -21,4 +21,105 @@
 .desc p {
   margin-bottom: 50px;
 }
+
+section#hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/index/hero2.jpg");
+  background-attachment: fixed;
+}
+
+section#hero nav {
+  height: 80px;
+  width: 100%;
+}
+
+section#hero nav ul.lister {
+  width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section#hero nav ul.lister .logo {
+  width: 40%;
+  line-height: 80px;
+  color: white;
+  font-family: "Press Start 2P", "Gugi", serif;
+  font-family-font-family: 'Gugi', serif;
+}
+
+section#hero nav ul.lister .links {
+  width: 70%;
+}
+
+section#hero nav ul.lister li.links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#hero nav ul.lister li.links ul li.linke {
+  line-height: 80px;
+  width: 25%;
+}
+
+section#hero nav ul.lister li.links ul li.linke a {
+  text-decoration: none;
+  color: #90FFD8;
+  font-family: 'Gugi', cursive;
+}
+
+section#hero header {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+section#hero header #heading {
+  font-size: 9em;
+  font-family: 'Gugi', serif;
+  font-weight: bold;
+  color: #90FFD8;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+section#hero header #cap {
+  font-size: 1.5em;
+  font-family: arial;
+  color: white;
+}
+
+.cards {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 200px auto;
+}
+
+.cards .card {
+  height: 400px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 400px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 21px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 21px -13px rgba(0, 0, 0, 0.75);
+  margin: 20px;
+}
+
+.cards .card img {
+  height: 400px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
 /*# sourceMappingURL=about.css.map */
