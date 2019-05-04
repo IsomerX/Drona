@@ -331,6 +331,7 @@ img.image2 {
 
 .gallery {
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .gallery .row {
@@ -370,18 +371,34 @@ img.image2 {
 }
 
 #row2 {
-  height: 200px;
-  margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #row2 .cir {
   height: 100px;
   width: 100px;
   margin: 40px;
-  border-radius: 50%;
-  background-color: pink;
+  border-radius: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 5px 2px 10px #a6a6a6;
+          box-shadow: 5px 2px 10px #a6a6a6;
+}
+
+#row2 .cir .fa, #row2 .cir .fab {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 40px;
 }
 /*# sourceMappingURL=index.css.map */
