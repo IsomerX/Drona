@@ -393,7 +393,7 @@ img.image2 {
           box-shadow: 5px 2px 10px #a6a6a6;
 }
 
-#row2 .cir .fa, #row2 .cir .fab {
+#row2 .cir .fa, #row2 .cir .fab, #row2 .cir .fas {
   position: relative;
   left: 50%;
   top: 50%;
