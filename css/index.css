@@ -1,32 +1,4 @@
-/* Fonts */
-
-@font-face {
-  font-family: Lato;
-  src: url(../Fonts/Lato/Lato-Regular.ttf);
-}
-
-@font-face {
-  font-family: Gugi;
-  src: url(../Fonts/Gugi/Gugi-Regular.ttf);
-}
-
-@font-face {
-  font-family: Cinzel;
-  src: url(../Fonts/Cinzel/Cinzel-Regular.ttf);
-}
-
-@font-face {
-  font-family: PressStart2P;
-  src: url(../Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
-}
-
-@font-face {
-  font-family: Righteous;
-  src: url(../Fonts/Righteous/Righteous-Regular.ttf);
-}
-
 @import url("https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Gugi|Press+Start+2P|Righteous");
-
 body {
   height: 2000px;
 }
@@ -38,12 +10,12 @@ section#hero {
   background-attachment: fixed;
 }
 
-nav {
+section#hero nav {
   height: 80px;
   width: 100%;
 }
 
-nav ul.lister {
+section#hero nav ul.lister {
   width: 960px;
   margin: 0 auto;
   display: -webkit-box;
@@ -52,53 +24,53 @@ nav ul.lister {
   text-align: center;
 }
 
-nav ul.lister .logo {
+section#hero nav ul.lister .logo {
   width: 40%;
   line-height: 80px;
   color: white;
-  font-family: 'PressStart2P', cursive;
+  font-family: 'Press Start 2P', cursive;
 }
 
-nav ul.lister .links {
+section#hero nav ul.lister .links {
   width: 70%;
 }
 
-nav ul.lister li.links ul {
+section#hero nav ul.lister li.links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-nav ul.lister li.links ul li.linke {
+section#hero nav ul.lister li.links ul li.linke {
   line-height: 80px;
   width: 25%;
 }
 
-nav ul.lister li.links ul li.linke a {
+section#hero nav ul.lister li.links ul li.linke a {
   text-decoration: none;
   color: #90FFD8;
-  font-family: Gugi, cursive;
+  font-family: 'Gugi', cursive;
 }
 
-header {
+section#hero header {
   width: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
 }
 
-#heading {
+section#hero header #heading {
   font-size: 9em;
-  font-family: 'Cinzel';
+  font-family: 'Cinzel', serif;
   font-weight: bold;
   color: #90FFD8;
   text-shadow: 2px 2px 6px #000000;
 }
 
-header #cap {
+section#hero header #cap {
   font-size: 1.5em;
   font-family: arial;
   color: white;
@@ -113,8 +85,7 @@ section#graphs .heading_graphs0 {
   font-size: 5em;
   color: gray;
   text-align: center;
-  padding: 50px 0 50px 0;
-  font-family: Gugi;
+  padding: 10px 0 30px 0;
 }
 
 section#graphs .text {
@@ -132,7 +103,7 @@ section#graphs .graph {
   height: 300px;
   width: 500px;
   -webkit-filter: blur(5px);
-  filter: blur(5px);
+          filter: blur(5px);
   -webkit-box-shadow: 10px 10px 41px -13px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 41px -13px rgba(0, 0, 0, 0.75);
 }
@@ -140,7 +111,7 @@ section#graphs .graph {
 section#graphs .graph:nth-of-type(1) {
   left: 80%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 1;
 }
 
@@ -154,7 +125,7 @@ section#graphs .graph:nth-of-type(3) {
   left: 50%;
   margin-top: -15%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   z-index: 3;
 }
 
@@ -172,7 +143,7 @@ section#graphs .graph:nth-of-type(5) {
 
 section#graphs .focus {
   -webkit-filter: blur(0) !important;
-  filter: blur(0) !important;
+          filter: blur(0) !important;
   z-index: 6 !important;
 }
 
@@ -217,15 +188,15 @@ section#product {
 section#product #heading_product {
   font-size: 5.8em;
   font-family: "Righteous", cursive;
-  color: transparent;
-  text-shadow: 2px 2px 0px #000000;
-  text-align: center;
-  width: 100%;
+  font-family-color: transparent;
+  font-family-text-shadow: 2px 2px 0px #000000;
+  font-family-text-align: center;
+  font-family-width: 100%;
   position: relative;
   top: 75%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 section#product #heading_product span {
@@ -241,7 +212,6 @@ section#product #heading_product span {
   width: 100%;
   height: 500px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card p {
@@ -249,7 +219,7 @@ section#product #heading_product span {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 2em;
   width: 960px;
   font-weight: bold;
@@ -270,5 +240,6 @@ section#product #heading_product span {
 .carda #prev {
   height: 300px;
   -webkit-filter: blur(5px);
-  filter: blur(5px);
+          filter: blur(5px);
 }
+/*# sourceMappingURL=index.css.map */
