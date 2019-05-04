@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Gugi|Press+Start+2P|Righteous')
+@import url('https://fonts.googleapis.com/css?family=Merriweather')
 
 body
 	height: 2000px
@@ -186,73 +187,89 @@ section#info
 	
 .page
 	width: 100%
-	height: 600px
+	height: 500px
 	display: flex
-	
+	color: black
+	margin: 40px 0
+	padding: 20px
+	border-radius: 20px
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+	-webkit-box-shadow: 0px 0px 79px -42px rgba(0,0,0,0.75)
+	-moz-box-shadow: 0px 0px 79px -42px rgba(0,0,0,0.75)
+	box-shadow: 0px 0px 79px -42px rgba(0,0,0,0.75)
 p.texti
 	width: 60%
 	padding: 30px 	
 	justify-content: center
   	align-items: center
-	line-height: 30px
+	line-height: 40px
 	font-size: 30px
+	font-weight: bold
 	position: relative
-	top: 65%
+	top: 75%
 	transform: translate(0,-50%);
-	font-family: Lato;
+	font-family: 'Merriweather', serif
 
 p.texti2
 	width: 60%
+	font-weight: bold
 	padding: 30px
 	justify-content: center
   	align-items: center
-	line-height: 30px
+	line-height: 40px
 	font-size: 30px
 	position: relative
-	top: 65%
+	top: 75%
 	transform: translate(0,-50%);
-	font-family: Lato;
+	font-family: 'Merriweather', serif
 
 img.image1
-	height: 400px
+	height: 300px
 	justify-content: center
   	align-items: center
+	position: relative
+	top: 50%
+	transform: translate(0,-50%)
+	border-radius: 20px
 
 img.image2
-	height: 400px
+	height: 300px
+	border-radius: 20px
 	justify-content: center
 	align-items: center
+	position: relative
+	top: 50%
+	transform: translate(0,-50%)
 
 	/* Gallery */
 
-.row
-    display: flex;
-    width: 90%;
-
-
-.row .overflow
-    margin: 20px;
-    overflow: hidden;
-    height: 300px;
-    width: 100%;
-    font-size: 10px;
-    text-align: center;
-    font-family: Lato;
-    color: #262626;
-
-
-.row .overflow img
-    height: 300px;
-    width: 100%;  
-    transition: 0.2s all ease-in-out;
-    filter: brightness(75%);
-
-
-.row .overflow img:hover
-    filter: brightness(100%);
-    transform: scale(1.2);
-
-
 .gallery
-    margin: 3% 0;
-    display: block;
+	margin: 0 auto
+
+	.row
+		display: flex
+		width: 90%
+		margin: 0 auto
+		
+		.overflow
+			margin: 20px
+			overflow: hidden
+			height: 300px
+			width: 100%
+			font-size: 10px
+			text-align: center
+			font-family: Lato
+			color: #262626
+
+			img
+				height: 300px
+				width: 100%
+				background: red
+				transition: 0.2s all ease-in-out
+				filter: brightness(75%)
+
+
+			img:hover
+				filter: brightness(100%)
+				transform: scale(1.2)
+				
