@@ -1,32 +1,37 @@
 /* Fonts */
 
-@font-face{
+@font-face {
   font-family: Lato;
   src: url(../Fonts/Lato/Lato-Regular.ttf);
 }
-@font-face{
+
+@font-face {
   font-family: Gugi;
   src: url(../Fonts/Gugi/Gugi-Regular.ttf);
 }
-@font-face{
+
+@font-face {
   font-family: Cinzel;
   src: url(../Fonts/Cinzel/Cinzel-Regular.ttf);
 }
-@font-face{
+
+@font-face {
   font-family: Press Start 2P;
   src: url(../Fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
-@font-face{
+
+@font-face {
   font-family: Righteous;
   src: url(../Fonts/Righteous/Righteous-Regular.ttf);
 }
 
 @import url("https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Gugi|Press+Start+2P|Righteous");
+
 body {
   height: 2000px;
 }
 
-section#hero{
+section#hero {
   height: 100vh;
   width: 100%;
   background-image: url("../images/index/hero2.jpg");
@@ -81,7 +86,7 @@ header {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -127,7 +132,7 @@ section#graphs .graph {
   height: 300px;
   width: 500px;
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
   -webkit-box-shadow: 10px 10px 41px -13px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 41px -13px rgba(0, 0, 0, 0.75);
 }
@@ -135,7 +140,7 @@ section#graphs .graph {
 section#graphs .graph:nth-of-type(1) {
   left: 80%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 1;
 }
 
@@ -149,7 +154,7 @@ section#graphs .graph:nth-of-type(3) {
   left: 50%;
   margin-top: -15%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 3;
 }
 
@@ -167,7 +172,7 @@ section#graphs .graph:nth-of-type(5) {
 
 section#graphs .focus {
   -webkit-filter: blur(0) !important;
-          filter: blur(0) !important;
+  filter: blur(0) !important;
   z-index: 6 !important;
 }
 
@@ -220,7 +225,7 @@ section#product #heading_product {
   top: 75%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 section#product #heading_product span {
@@ -244,7 +249,7 @@ section#product #heading_product span {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 2em;
   width: 960px;
   font-weight: bold;
@@ -265,5 +270,5 @@ section#product #heading_product span {
 .carda #prev {
   height: 300px;
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
 }
