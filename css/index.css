@@ -271,11 +271,37 @@ p.texti {
           transform: translate(0, -50%);
 }
 
+p.texti2 {
+  width: 60%;
+  padding: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-content-align-items: center;
+  line-height: 30px;
+  font-size: 30px;
+  position: relative;
+  top: 65%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  font-family: 'latto';
+}
+
 img.image1 {
   height: 400px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   justify-content-align-items: center;
+}
+
+img.image2 {
+  height: 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=index.css.map */
