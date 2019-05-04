@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Gugi|Press+Start+2P|Righteous");
+
 body {
   height: 2000px;
 }
@@ -58,7 +59,7 @@ section#hero header {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -85,7 +86,8 @@ section#graphs .heading_graphs0 {
   font-size: 5em;
   color: gray;
   text-align: center;
-  padding: 10px 0 30px 0;
+  padding: 10% 0 5% 0;
+  font-family: Gugi
 }
 
 section#graphs .text {
@@ -103,7 +105,7 @@ section#graphs .graph {
   height: 300px;
   width: 500px;
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
   -webkit-box-shadow: 10px 10px 41px -13px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 41px -13px rgba(0, 0, 0, 0.75);
 }
@@ -111,7 +113,7 @@ section#graphs .graph {
 section#graphs .graph:nth-of-type(1) {
   left: 80%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 1;
 }
 
@@ -125,7 +127,7 @@ section#graphs .graph:nth-of-type(3) {
   left: 50%;
   margin-top: -15%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 3;
 }
 
@@ -143,7 +145,7 @@ section#graphs .graph:nth-of-type(5) {
 
 section#graphs .focus {
   -webkit-filter: blur(0) !important;
-          filter: blur(0) !important;
+  filter: blur(0) !important;
   z-index: 6 !important;
 }
 
@@ -196,7 +198,7 @@ section#product #heading_product {
   top: 75%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 section#product #heading_product span {
@@ -219,7 +221,7 @@ section#product #heading_product span {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 2em;
   width: 960px;
   font-weight: bold;
@@ -240,7 +242,7 @@ section#product #heading_product span {
 .carda #prev {
   height: 300px;
   -webkit-filter: blur(5px);
-          filter: blur(5px);
+  filter: blur(5px);
 }
 
 section#info {
@@ -260,48 +262,53 @@ p.texti {
   width: 60%;
   padding: 30px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-content-align-items: center;
-  line-height: 30px;
-  font-size: 30px;
+  line-height: 25px;
+  font-size: 20px;
   position: relative;
   top: 65%;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  font-family: Lato;
 }
 
 p.texti2 {
   width: 60%;
   padding: 30px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-content-align-items: center;
-  line-height: 30px;
-  font-size: 30px;
+  line-height: 25px;
+  font-size: 20px;
   position: relative;
   top: 65%;
   -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+  transform: translate(0, -50%);
   font-family: 'latto';
+  font-family: Lato;
 }
 
 img.image1 {
   height: 400px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-content-align-items: center;
 }
 
 img.image2 {
   height: 400px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
+
+
+
 /*# sourceMappingURL=index.css.map */
