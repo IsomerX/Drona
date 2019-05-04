@@ -164,6 +164,7 @@ section#product
 		font-size: 2em
 		width: 960px
 		font-weight: bold
+		font-family: Lato;
 
 
 .carda
@@ -197,7 +198,8 @@ p.texti
 	font-size: 30px
 	position: relative
 	top: 65%
-	transform: translate(0,-50%)
+	transform: translate(0,-50%);
+	font-family: Lato;
 
 p.texti2
 	width: 60%
@@ -208,7 +210,8 @@ p.texti2
 	font-size: 30px
 	position: relative
 	top: 65%
-	transform: translate(0,-50%)
+	transform: translate(0,-50%);
+	font-family: Lato;
 
 img.image1
 	height: 400px
@@ -220,5 +223,36 @@ img.image2
 	justify-content: center
 	align-items: center
 
+	/* Gallery */
+
+.row
+    display: flex;
+    width: 90%;
 
 
+.row .overflow
+    margin: 20px;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    font-family: Lato;
+    color: #262626;
+
+
+.row .overflow img
+    height: 300px;
+    width: 100%;  
+    transition: 0.2s all ease-in-out;
+    filter: brightness(75%);
+
+
+.row .overflow img:hover
+    filter: brightness(100%);
+    transform: scale(1.2);
+
+
+.gallery
+    margin: 3% 0;
+    display: block;

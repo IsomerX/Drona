@@ -21,3 +21,14 @@
 .desc p{
     margin-bottom: 20px;
 }
+
+.gallery{
+    width: 100%;
+}
+.gallery .row{
+    width: 100%;
+}
+.gallery .row .overflow{
+    width: 30%;
+    height: auto;
+}

@@ -223,6 +223,7 @@ section#product #heading_product span {
   font-size: 2em;
   width: 960px;
   font-weight: bold;
+  font-family: Lato;
 }
 
 .carda {
@@ -269,6 +270,7 @@ p.texti {
   top: 65%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
+  font-family: Lato;
 }
 
 p.texti2 {
@@ -284,6 +286,7 @@ p.texti2 {
   top: 65%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
+  font-family: Lato;
 }
 
 img.image1 {
@@ -302,5 +305,45 @@ img.image2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /* Gallery */
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+}
+
+.row .overflow {
+  margin: 20px;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  font-family: Lato;
+  color: #262626;
+}
+
+.row .overflow img {
+  height: 300px;
+  width: 100%;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+
+.row .overflow img:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.gallery {
+  margin: 3% 0;
+  display: block;
 }
 /*# sourceMappingURL=index.css.map */
