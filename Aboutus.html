@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href=css/reset.css> </head> <link rel="stylesheet" href="css/about.css">
+
+<body>
+	<section id="hero">
+		<nav>
+			<ul class="lister">
+				<li class="logo">DRONA</li>
+				<li class="links">
+					<ul>
+						<li class="linke">
+							<a href="Details.html">Details</a>
+						</li>
+						<li class="linke">
+							<a href="Tech.html">Tech</a>
+						</li>
+						<li class="linke">
+							<a href="Why.html">Why</a>
+						</li>
+						<li class="linke">
+							<a href="Aboutus.html">About us</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<header>
+			<div id="heading">
+				Drona
+			</div>
+			<div id="cap">
+				We Guide You Better
+			</div>
+		</header>
+
+	</section>
+
+	<section>
+		<div class="who">Who are we?</div>
+
+		<div class="desc"></div>
+
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('section').mousemove(function (e) {
+				console.log("hello")
+				var moveX = (e.pageX * -1 / 20);
+				var moveY = (e.pageY * -1 / 20);
+				$(this).css('background-position', moveX + 'px ' + moveY + 'px')
+			})
+		})
+	</script>
+
+	<script src="source.js"></script>
+
+</body>
+
+</html>

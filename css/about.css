@@ -1,0 +1,11 @@
+.who {
+    background-image: -webkit-linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Righteous;
+    font-size: 120px;
+    text-align: center;
+    margin: 5% 0;
+}
